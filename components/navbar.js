@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Home from "../pages";
 
 const Navbar = () => (
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
@@ -18,6 +19,5 @@ const Navbar = () => (
     </div>
   </nav>
      )
-          
 
 export default Navbar;
